@@ -465,3 +465,27 @@ _Assumed Specification Limits: LSL=45, USL=55, Target=50 for illustrative purpos
 <iframe data-src='media/plots/machine3_cpk_chart.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+
+----
+
+:::: {{.columns}}
+::: {{.column width="50%"}}
+### T-test Results: PartLength (Machine 1 vs Machine 2)
+
+This slide summarizes the statistical differences in `PartLength` between Machine 1 and Machine 2 under two distinct operating conditions.
+
+**Condition 1: Pressure = 100kPa, Temperature = 303K**
+- **P-value:** 1.867167e-150
+- **Conclusion:** There is a statistically significant difference in `PartLength` between Machine 1 and Machine 2 under these conditions.
+
+**Condition 2: Pressure = 300kPa, Temperature = 373K**
+- **P-value:** 3.074645e-163
+- **Conclusion:** There is a statistically significant difference in `PartLength` between Machine 1 and Machine 2 under these conditions.
+
+_Note: A p-value less than 0.05 indicates a statistically significant difference._
+:::
+
+::: {{.column width="50%"}}
+<!-- Optionally, you could include a visual representation of the t-test results here, e.g., box plots or density plots for each machine under each condition. -->
+:::
+::::
